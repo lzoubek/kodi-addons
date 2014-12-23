@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+	<string id="30000">Kvalita</string>
+	<string id="30001">Formát</string>
+	<string id="30003">Odesílat chyby</string>
+	<string id="30006">Další</string>
+	<string id="30007">Předchozí</string>
+	<string id="30500">Nastala chyba při běhu aplikace.</string>
+	<string id="30501">Povolit odesílní chyb doplňku?</string>
+	<string id="30502">Chyba byla odeslána k opravě</string>
+	<string id="30503">Report o chybě se nepodařilo odeslat</string>
+	<string id="30013">Vybrat kvalitu</string>
+	<string id="30051">Doporučujeme</string>
+	<string id="30052">Nejnovější</string>
+	<string id="30053">Další kategorie</string>
+	<string id="30101">Politika</string>
+	<string id="30102">Společnost</string>
+	<string id="30103">Zahraničí</string>
+	<string id="30104">Ekonomika</string>
+	<string id="30105">Kultura</string>
+	<string id="30106">Celé pořady</string>
+</strings>

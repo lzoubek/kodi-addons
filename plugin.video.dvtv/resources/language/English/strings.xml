@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+	<string id="30000">Quality</string>
+	<string id="30001">Format</string>
+	<string id="30003">Report errors</string>
+	<string id="30006">Next</string>
+	<string id="30007">Previous</string>
+	<string id="30500">Error ocurred during runtime.</string>
+	<string id="30501">Allow reporting of errors?</string>
+	<string id="30502">Error was sent to be repaired</string>
+	<string id="30503">Failure report could not be sent</string>
+	<string id="30013">Select quality</string>
+	<string id="30051">Recommended</string>
+	<string id="30052">New</string>
+	<string id="30053">Categories</string>
+	<string id="30101">Politics</string>
+	<string id="30102">Society</string>
+	<string id="30103">Foreign</string>
+	<string id="30104">Economics</string>
+	<string id="30105">Culture</string>
+	<string id="30106">Whole episodes</string>
+</strings>

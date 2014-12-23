@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <setting id="quality" type="labelenum" label="30000" values="180p|360p|720p" default="720p" />
+    <setting id="format" type="labelenum" label="30001" values="MP4|WebM" default="MP4" />
+    <setting id="send_errors" type="bool" label="30003" default="false" />
+</settings>
