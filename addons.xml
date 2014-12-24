@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.dvtv" name="Drtinová Veselovský TV" version="1.4.0" provider-name="Štěpán Ort">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>DVTV - Drtinová, Veselovský TV</summary>
+	<description>Plugin to play videos from DVTV.cz</description>
+    <description lang="cs">Exkluzivní rozhovory s vlivnými lidmi české politiky a byznysu. Nejlepší profesionálové v roli moderátorů, kteří se ptají tak přímo a tak dlouho, dokud nedostanou odpověď. Reportáže z míst, kde byste neměli chybět. Klíčové kulturní a společenské události. To vše nabízí první publicistický videokanál na českém internetu.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ivysilani" name="iVysílání — Česká televize" version="1.1.0" provider-name="Štěpán Ort">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>iVysílání — Česká televize</summary>
+	<description>Plugin to play videos and live TV from Czech Television's iVysilani</description>
+    <description lang="cs">Plugin nabízí přístup do archivu České televize iVysílání i přehrávání kanálů živě.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.stepanort.kodi-addons" version="1.0.0" name="Kodi Addons by Štěpán Ort" provider-name="Štěpán Ort">
+	<extension point="xbmc.addon.repository" name="Kodi Add-on Repository by Štěpán Ort">
+    	<info>https://raw.githubusercontent.com/StepanOrt/kodi-addons/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/StepanOrt/kodi-addons/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/StepanOrt/kodi-addons/raw/master/download/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Kodi Add-on Repository by Štěpán Ort</summary>
+        <description>Contains addons like:
+            * iVysílání of Czech TV
+            * DVTV.cz
+            * O2TV Go</description>
+        <description lang="cs">Obsahuje rozšíření jako:
+            * iVysílání of Czech TV
+            * DVTV.cz
+            * O2TV Go</description>
+        <license>MIT</license>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.o2tvgo" name="O2TV Go" version="1.0.0" provider-name="Štěpán Ort">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>O2TV Go</summary>
+	<description>Plugin to play live channels from O2TV Go service</description>
+    <description lang="cs">Plugin na přehrávání živé televize ze služby O2TV GO</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
