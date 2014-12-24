@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.stepanort.kodi-addons" version="1.0.0" name="Kodi Addons by Štěpán Ort" provider-name="Štěpán Ort">
+	<extension point="xbmc.addon.repository" name="Kodi Add-on Repository by Štěpán Ort">
+    	<info>https://raw.githubusercontent.com/StepanOrt/kodi-addons/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/StepanOrt/kodi-addons/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/StepanOrt/kodi-addons/raw/master/download/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Kodi Add-on Repository by Štěpán Ort</summary>
+        <description>Contains addons like:
+            * iVysílání of Czech TV
+            * DVTV.cz
+            * O2TV Go</description>
+        <description lang="cs">Obsahuje rozšíření jako:
+            * iVysílání of Czech TV
+            * DVTV.cz
+            * O2TV Go</description>
+        <license>MIT</license>
+        <platform>all</platform>
+    </extension>
+</addon>
